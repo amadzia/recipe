@@ -31,6 +31,7 @@ public class Recipe {
     private Byte[] image;
 
     @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "notes_id")
     private Notes notes;
 
     @Enumerated(value = EnumType.STRING)
