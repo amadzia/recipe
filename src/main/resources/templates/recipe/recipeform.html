@@ -98,7 +98,7 @@
                                         <h1 class="card-title">Ingredients</h1>
                                     </div>
                                     <div class="col-md-1">
-                                        <a class="btn btn-dark" href="#" role="button">Edit</a>
+                                        <a class="btn btn-dark" href="#" role="button">View</a>
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@
                                         <ul th:if="${not #lists.isEmpty(recipe.ingredients)}">
                                             <li th:remove="all">1 cup of milk</li>
                                             <li th:remove="all">1 teaspoon of chocolate</li>
-                                            <li>test</li>
+                                            <li th:remove="all">test</li>
                                             <li th:each="ingredient : ${recipe.ingredients}"
                                                 th:text="${(ingredient.getAmount()+
                                             ' '+ingredient.uom.getDescription()+
