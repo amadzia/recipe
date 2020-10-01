@@ -3,5 +3,4 @@
 # recipe
 
 Recipe project for Spring Boot.
-
-Excercise based on online course "Spring Framework 5: Beginner to Guru" (course author: John Thompson)
+This project is an outcome of the Excercise based on online course "Spring Framework 5: Beginner to Guru" (course author: John Thompson)
